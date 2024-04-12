@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App ">
             <img src={coffee} alt="Coffee Image" className=" w-full z-1 object-cover h-2/4" />
-            <div className="bg-black z-1 pb-16">
+            <div className="bg-blackish z-1 pb-16">
                 <CollectionCard />
             </div>
         </div>
