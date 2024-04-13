@@ -10,11 +10,10 @@ function App() {
 }, []);
   // h-dvh to make an element span the entire height of the viewport, which changes as the browser UI expands or contracts.
   return (
-    <div className="App ">
-            <img src={coffee} alt="Coffee Image" className=" w-full z-1 object-cover h-2/4" />
-            <div className="bg-blackish z-1 pb-16">
+    <div className="App min-h-screen flex flex-col items-center justify-center bg-blackish">
+            <img src={coffee} alt="Coffee Image" className="fixed top-0 w-full z-1 object-cover h-[18.75rem] object-center " />
                 <CollectionCard />
-            </div>
+           
         </div>
   );
 }
