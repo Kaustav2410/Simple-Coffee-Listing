@@ -6,7 +6,7 @@ export const SingleCard = ({item}) => {
     }
  
   return (
-    <div className='flex justify-around font-DM_Sans flex-col px-4 relative gap-4'>
+    <div className='flex justify-around font-DM_Sans flex-col relative gap-4'>
         {item.popular && <p className='absolute bg-light-yellow left-8 rounded-lg px-2 py-1 top-2 text-black text-ss '>Popular</p> }
         <img src={item.image} className='w-full rounded-lg h-3/4'/>
         <div className='flex justify-between '>
